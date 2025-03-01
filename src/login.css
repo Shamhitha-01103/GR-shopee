@@ -9,12 +9,19 @@
   
 }
 .two{
-  height: 2000px;
-  background:linear-gradient(to left, blue,aqua,darkturquoise);
+  background: url(./node3.jpeg);
+  display: grid;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  
 }
 .h1{
   padding: 10px;
-  color:rgb(220, 100, 50)
+  color:black;
+  align-items: center;
 }
 .form{
   display: flex;
@@ -23,7 +30,8 @@
   width: 400px;
   height: 500px;
   border-radius: 10px;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  
 }
 .name{
   display: flex;
@@ -31,6 +39,7 @@
   padding: 10px;
   margin: 20px;
   height: 30px;
+  border-radius: 30px;
 }
 .pass{
   display: flex;
@@ -38,6 +47,7 @@
   padding:10px;
   margin: 20px;
   height: 30px;
+  border-radius: 30px;
 }
 .sub{
   display: flex;
