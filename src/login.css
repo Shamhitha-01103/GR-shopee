@@ -1,0 +1,50 @@
+.div{
+  display: flex;
+  flex-direction:column;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.two{
+  height: 2000px;
+  background:linear-gradient(to left, blue,aqua,darkturquoise);
+}
+.h1{
+  padding: 10px;
+  color:rgb(220, 100, 50)
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 20px;
+  height: 30px;
+}
+.pass{
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+  margin: 20px;
+  height: 30px;
+}
+.sub{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 20px;
+  justify-content: center;
+  border-radius: 30px;
+  height: 50px;
+}

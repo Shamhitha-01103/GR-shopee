@@ -1,0 +1,91 @@
+.nav{
+  display:flex;
+  background: linear-gradient(to right,black,gray,white);
+  flex-direction: row;
+  justify-items: right;
+  justify-content: space-evenly;
+  height: 100px;
+  width: 2000px;
+  padding: 14px 20px;
+  
+}
+
+.logo{
+  width: 800px;
+  height: 600px;
+  cursor: pointer;
+  margin: left 150px;
+  justify-content: left;
+  
+}
+.nav a:hover{
+  
+  color: black;
+}
+.items{
+  display: flex;
+  padding: 16px;
+  margin: 20px;
+  align-items: center;
+}
+
+.cart{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  border-radius: 70px;
+  padding: 200px;
+  padding: 10px;
+  margin: 15px;
+  width: 700px;
+  height: 600px;
+  background:whitesmoke;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+  text-size-adjust: 40px;
+}
+.cart:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+.items button{
+  align-items: center;
+  background :rgb(181, 72, 91) ;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  display: flex; 
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+   
+    justify-content: center;
+    align-items: center;
+}
+.items button:hover{
+  background-color: #4d0c1e;
+}
+.img{
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+.m{
+  display: flex; 
+  width: 30px;
+  height: 50px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.one{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
